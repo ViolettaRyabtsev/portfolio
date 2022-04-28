@@ -1,0 +1,15 @@
+.projects {
+  display: flex;
+  margin-top: 100px;
+}
+
+.projects h2 {
+  width: 30%;
+  margin-left: 100px;
+  font-size: 40px;
+  opacity: 0.6;
+}
+
+.projects-list {
+  width: 70%;
+}
