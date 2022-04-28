@@ -13,19 +13,27 @@ import {
   BrowserRouter as Router,
 } from "react-router-dom";
 import "./App.css";
+import { Background, Parallax } from "react-parallax";
 
 function App() {
   return (
     <div className="App">
-      <Router>
-        <NavBar />
-        <Routes>
-          <Route path="/" element={<MainPage />}></Route>
-          <Route path="/projects" element={<Projects />}></Route>
-        </Routes>
-      </Router>
-
-      <Footer />
+      <Parallax
+        strength={500}
+        bgImage={"./parallax.jpg"}
+        bgImageStyle={{
+          opacity: "0.9",
+        }}
+      >
+        <Router>
+          <NavBar />
+          <Routes>
+            <Route path="/" element={<MainPage />}></Route>
+            <Route path="/projects" element={<Projects />}></Route>
+          </Routes>
+        </Router>
+        <Footer />
+      </Parallax>
     </div>
   );
 }

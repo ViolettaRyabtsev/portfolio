@@ -4,11 +4,11 @@ import "./Project.css";
 function Projects() {
   return (
     <div className="projects">
-      <h2>Projects</h2>
+      <h3>Projects</h3>
       <div className="projects-list">
         <div className="container-project">
           <div className="text">
-            <h2>LoveNovelist</h2>
+            <h2>Love Novelist</h2>
             <p>
               A React web application to publish, read and discuss love novels
               with custom API Built a performant API to support user creation of
@@ -73,7 +73,6 @@ function Projects() {
             <button>Go to Web</button>
           </div>
         </div>
-        {/*  */}
       </div>
     </div>
   );

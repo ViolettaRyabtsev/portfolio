@@ -15,7 +15,7 @@ function MainPage() {
         </div>
         <div className="text">
           <h2>About Me</h2>
-          <p>
+          <p style={{ "font-family": "Didot" }}>
             Hello, my name is Violetta Ryabtsev. I’m a Full Stack Web Developer.{" "}
             <br /> I love programming, history, science, writing novels, and
             reading books. I like to combine my skills as an engineer with my

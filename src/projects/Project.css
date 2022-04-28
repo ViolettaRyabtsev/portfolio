@@ -1,15 +1,40 @@
 .projects {
   display: flex;
   margin-top: 100px;
+  opacity: 0.8;
+}
+
+p {
+  font-family: "Didot";
 }
 
 .projects h2 {
   width: 30%;
+  margin-left: 20px;
+  font-size: 30px;
+  opacity: 0.9;
+  color: white;
+  font-family: "Didot";
+}
+.projects h3 {
+  color: aliceblue;
+  font-size: 30px;
+  font-family: "Didot";
   margin-left: 100px;
-  font-size: 40px;
-  opacity: 0.6;
+  opacity: 0.8;
 }
 
 .projects-list {
+  margin-top: 15px;
+  margin-left: 300px;
   width: 70%;
+}
+
+button {
+  font-family: "Didot";
+  border: solid 1px #66fcf1;
+  height: 30px;
+  width: 150px;
+  color: white;
+  background-color: #1f2833;
 }

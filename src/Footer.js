@@ -11,9 +11,9 @@ function Footer() {
     <div className="footer">
       <h5> Violetta Ryabtsev</h5>
       <div className="footer-links">
-        <AiFillLinkedin style={style} opacity="0.6" />
-        <AiFillGithub style={style} opacity="0.6" />
-        <AiTwotoneMail style={style} opacity="0.6" />
+        <AiFillLinkedin style={style} opacity="0.8" />
+        <AiFillGithub style={style} opacity="0.8" />
+        <AiTwotoneMail style={style} opacity="0.8" />
       </div>
     </div>
   );

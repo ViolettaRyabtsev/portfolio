@@ -5,7 +5,7 @@ import { SiJavascript } from "react-icons/si";
 import { FaDocker } from "react-icons/fa";
 import { GoDatabase } from "react-icons/go";
 function Skills() {
-  const style = { color: "black", fontSize: "3.0em", opacity: "0.7" };
+  const style = { color: "white", fontSize: "3.0em", opacity: "0.7" };
 
   return (
     <div className="skills">

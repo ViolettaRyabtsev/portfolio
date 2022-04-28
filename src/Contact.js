@@ -6,7 +6,7 @@ import { AiFillGithub } from "react-icons/ai";
 import { AiTwotoneMail } from "react-icons/ai";
 
 function Contacts() {
-  const style = { color: "gray", fontSize: "2.0em" };
+  const style = { color: "#66fcf1", fontSize: "2.0em" };
   return (
     <div className="contacts">
       <a href="https://www.linkedin.com/in/violetta-ryabtsev/">

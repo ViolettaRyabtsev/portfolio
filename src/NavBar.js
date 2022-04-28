@@ -12,9 +12,9 @@ import "./App.css";
 
 function NavBar() {
   const [click, setClick] = useState(false);
+
   return (
     <div className="navbar-top">
-      <h2>Violetta Ryabtsev</h2>
       <ul>
         <li>
           <NavLink onClick={() => setClick(true)} to="/projects">
